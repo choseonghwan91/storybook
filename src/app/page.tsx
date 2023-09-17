@@ -8,7 +8,8 @@ export default function Home() {
 
   return (
     <main className="flex justify-center h-screen w-screen bg-white">
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 mt-10">
+        <h1 className="text-black text-3xl font-bold text-center">STORYBOOK</h1>
         <section>
           <h2 className="h-10 flex items-center text-black">버튼 공용 컴포넌트</h2>
           <div className="border-2 border-black p-10">
